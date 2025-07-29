@@ -15,9 +15,9 @@
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <title>Spazio Momo - Corsi</title>
+        <title>Spazio Momo - Affitta la sala per professionisti</title>
         <meta content="" name="description">
-        <meta content="Spaziomomo spaziomomo momo corsi corso creativo arte" name="keywords">
+        <meta content="Spaziomomo spaziomomo momo affitta sala professionisti feste eventi compleanno gioco" name="keywords">
 
         <!-- Favicons -->
         <link href="../../assets/img/favicon.png" rel="icon">
@@ -37,6 +37,28 @@
         <!-- Template Main CSS File -->
         <link href="../../assets/css/style.css" rel="stylesheet">
 
+        <style>
+            #servizi {
+              font-family: Arial, Helvetica, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+
+            #servizi td, #servizi th {
+              border: 1px solid #ddd;
+              padding: 8px;
+            }
+
+            #servizi tr {background-color: #f2f2f2;}
+
+            #servizi th {
+              padding-top: 12px;
+              padding-bottom: 12px;
+              text-align: left;
+              background-color: #04AA6D;
+              color: white;
+            }
+        </style>
     </head>
 
     <body>
@@ -60,10 +82,12 @@
             <div class="container d-flex align-items-center justify-content-between">
 
                 <a href="index.html" class="logo"><img src="../../assets/img/logo_SMomo.png" alt=""></a>
+
                 <nav id="navbar" class="navbar">
                     <ul>
                         <li><a class="nav-link scrollto" href="../../index.html">Home</a></li>
-                        <li><a class="nav-link scrollto" href="../../index.html#about">Chi siamo</a></li>
+                        <li><a class="nav-link scrollto" href="../../index.html#about">Chi sono</a></li>
+                        <li><a class="nav-link scrollto" href="../../index.html#spazio">Lo spazio</a></li>
                         <li><a class="nav-link scrollto active" href="../../index.html#portfolio">Cosa facciamo</a></li>
                         <li><a class="nav-link scrollto" href="../../index.html#contact">Contattaci</a></li>
                     </ul>
@@ -75,44 +99,66 @@
 
         <main id="main" data-aos="fade-up">
 
-            <!-- ======= Portfolio Section ======= -->
-            <section id="corsi" class="portfolio">
-                <div class="container" data-aos="fade-up">
+            <!-- ======= Breadcrumbs Section ======= -->
+            <section class="breadcrumbs">
+                <div class="container">
 
-                    <div class="section-title">
-                        <h2>Corsi</h2>
-                        <h3>Questi sono i corsi che <span>Proponiamo</span></h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2>Affitta la sala per professionisti</h2>
+                        <ol>
+                            <li><a href="../../index.html">Home</a></li>
+                            <li><a href="../../index.html#portfolio">Cosa facciamo</a></li>
+                            <li>Affitta la sala feste ed eventi per professionisti</li>
+                        </ol>
                     </div>
 
-                    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                        <div class="col-lg-4 col-md-6 portfolio-item">
-                            <img src="../../assets/img/portfolio/corsi/musica.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Propedeutica musicale piccolissimi</h4>
-                                <a href="propedeutica-musicale.html" class="details-link" title="Dettagli"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-
-                        <!--<div class="col-lg-4 col-md-6 portfolio-item">
-                            <img src="../../assets/img/portfolio/corsi/ceramica.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Ceramica</h4>
-                                <a href="ceramica.html" class="details-link" title="Dettagli"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-item">
-                            <img src="../../assets/img/portfolio/corsi/espressione_creativa.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Espressione creativa</h4>
-                                <a href="espressione-creativa.html" class="details-link" title="Dettagli"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div> -->
-
-                    </div>
                 </div>
-            </section><!-- End Portfolio Section -->
+            </section><!-- Breadcrumbs Section -->
+
+            <!-- ======= Portfolio Details Section ======= -->
+            <section id="portfolio-details" class="portfolio-details">
+                <div class="container">
+
+                    <div class="row gy-4">
+
+                        <div class="col-lg-8">
+                            <div class="portfolio-details-slider swiper">
+                                <div class="swiper-wrapper align-items-center">
+
+                                    <div class="swiper-slide">
+                                        <img src="../../assets/img/portfolio/spazio-gioco/disegnomomo-3-6.jpg" alt="">
+                                    </div>                             
+
+                                    <div class="swiper-slide">
+                                        <img src="../../assets/img/portfolio/spazio-gioco/giocomomo-3-6.jpg" alt="">
+                                    </div>
+                                    
+                                    <div class="swiper-slide">
+                                        <img src="../../assets/img/portfolio/spazio-gioco/giochi_creativi-3-6.jpg" alt="">
+                                    </div>
+                                    
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="portfolio-info">
+                                <p>
+                                    Sei un professionista e stai cercando uno spazio che possa ospitare le tue proposte?
+                                    Potremmo essere lo spazio che fa per te! Contattaci per dirci la tua e avere più info!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row gy-8">
+                            <div class="portfolio-description">
+
+                            </div>
+                        </div>                        
+                    </div>
+
+                </div>
+            </section><!-- End Portfolio Details Section -->
 
         </main><!-- End #main -->
 
