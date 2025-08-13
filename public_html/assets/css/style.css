@@ -15,12 +15,12 @@ body {
 }
 
 a {
-    color: #106eea;
+    color: #000;
     text-decoration: none;
 }
 
 a:hover {
-    color: #3b8af2;
+    color: #ff8000;
     text-decoration: none;
 }
 
@@ -253,7 +253,7 @@ h6 {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: #106eea;
+    background-color: #ff8000;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -270,7 +270,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #106eea;
+    color: #ff8000;
 }
 
 .navbar .dropdown ul {
@@ -605,7 +605,7 @@ section {
     padding: 8px 20px;
     margin: 0;
     background: #e7f1fd;
-    color: #106eea;
+    color: #ff8000;
     display: inline-block;
     text-transform: uppercase;
     border-radius: 50px;
@@ -618,7 +618,7 @@ section {
 }
 
 .section-title h3 span {
-    color: #106eea;
+    color: #ff8000;
 }
 
 .section-title p {
@@ -1101,7 +1101,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    color: #106eea;
+    color: #ff8000;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1709,7 +1709,7 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 span {
-    color: #106eea;
+    color: #ff8000;
 }
 
 #footer .footer-top .footer-contact p {
